@@ -35,6 +35,8 @@
 		"vscode": {
 			// Set *default* container specific settings.json values on container create.
 			"settings": {
+				"python.defaultInterpreterPath": "/usr/local/bin/python",
+				"python.createEnvironment.trigger": "off",
 				"workbench": {
 					"editorAssociations": {
 						"*.md": "vscode.markdown.preview.editor"
